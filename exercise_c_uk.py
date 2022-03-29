@@ -25,5 +25,8 @@ united_kingdom.append({
     "capital": "Belfast"
   })
 # 3. Use a loop to print the names of all the countries in the UK.
+for country in united_kingdom:
+  print(country["name"])
+
 # 4. Use a loop to find the total population of the UK.
 print(united_kingdom)
